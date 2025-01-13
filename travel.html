@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="assets/style/bootstrap.css">
+    <link rel="stylesheet" href="assets/style/custom.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-xxl">
+          <a class="navbar-brand" href="#">
+            <img id="navbar-logo" src="assets/img/logo2.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active btn btn-info" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active btn btn-info" href="#">Offerte della settimana</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active btn btn-info" aria-disabled="true">Welcome summer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active btn btn-info" aria-disabled="true">Offerta del giorno</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <main>
+
+    <section class="mb-4 rounded-3">
+        <div class="jumbotron container-xxl py-5 ps-5">
+            <h1 class="display-5 fw-bold mb-4"> 
+              Viaggi low cost da sogno. Sempre.
+            </h1>
+            <p class="col-md-8 fs-4 d-none d-md-block mb-4">
+                Hai dubbi sulla tua prossima destinazione? Hai da tempo un viaggio come sogno nel cassetto ma non sai come organizzarlo o sei spaventato dai costi? Lascia fare a noi, organizzeremo il viaggio della tua vita. 
+            </p>
+            <button class="btn btn-primary btn-lg" type="button">
+                Pianifica il tuo viaggio
+            </button>
+        </div>
+    </section>
+    
+    <section class=" container-xxl row gx-2 gy-2 mx-auto mb-4">
+      <div class="col-12">
+        <div class="card-header fw-bolder fs-2 ps-2">Offerte della settimana</div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+          <div class="card rounded-4" id="first-card">
+          <div class="card-body">
+            <h3 class="card-title fw-bolder mb-2">Machu Picchu, Perù</h3>
+              <p class="card-text fs-6">A partire da 799€</p>
+              <a href="#" class="btn btn-primary">Scopri l'offerta</a>
+          </div>
+          </div>
+        </div>
+      
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card rounded-4" id="second-card">
+          <div class="card-body">
+              <h3 class="card-title fw-bolder mb-2">Hanoi, Vietnam</h3>
+              <p class="card-text fs-6">A partire da 749€</p>
+              <a href="#" class="btn btn-primary">Scopri l'offerta</a>
+          </div>
+      </div>
+    </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card rounded-4" id="third-card">
+        <div class="card-body">
+            <h3 class="card-title fw-bolder mb-2">Lofoten, Norvegia</h3>
+            <p class="card-text fs-6 text-white">A partire da 379€</p>
+            <a href="#" class="btn btn-primary">Scopri l'offerta</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card rounded-4" id="fourth-card">
+        <div class="card-body">
+            <h3 class="card-title fw-bolder mb-2">Andalucia, Spagna</h3>
+            <p class="card-text fs-6">A partire da 249€</p>
+            <a href="#" class="btn btn-primary">Scopri l'offerta</a>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    
+      <section class="container-xxl row gx-2 gy-2 mx-auto mb-5" id="summer">
+        <div class="col-12">
+          <div class="card-header fw-bolder fs-2 ps-2">Welcome Summer!</div>
+        </div>
+        <a href="#" class="col-6 col-md-4 col-lg-2">
+          <div class="card" id="summer-1">
+            <div class="card-body">
+              <h3 class="card-title">Italia</h3>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="col-6 col-md-4 col-lg-2">
+          <div class="card" id="summer-2">
+            <div class="card-body">
+              <h3 class="card-title">Baleari</h3>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="col-6 col-md-4 col-lg-2">
+          <div class="card" id="summer-3">
+            <div class="card-body">
+              <h3 class="card-title">Canarie</h3>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="col-6 col-md-4 col-lg-2">
+          <div class="card" id="summer-4">
+            <div class="card-body">
+              <h3 class="card-title">Grecia</h3>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="col-6 col-md-4 col-lg-2">
+          <div class="card" id="summer-5">
+            <div class="card-body">
+              <h3 class="card-title">Tunisia</h3>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="col-6 col-md-4 col-lg-2">
+          <div class="card" id="summer-6">
+            <div class="card-body">
+              <h3 class="card-title">Corsica</h3>
+            </div>
+          </div>
+        </a>
+      </section>
+      
+      <section class="container-xxl card mb-3 rounded-3 d-none d-md-block" id="day-offer">
+        <div class="col-12 rounded-3">
+          <div class="card-header fw-bolder fs-2 ps-2">Offerta del giorno</div>
+        </div>
+        <div class="row g-0 ">
+          <div class="col-md-8">
+            <img src="assets/img/reykjavik.jpg" class="card-img-top rounded-start" alt="reykjavik">
+          </div>
+          <div class="col-md-4">
+            <div class="card-body rounded-end">
+              <h3 class="card-title fw-bolder fs-2 text-black">Reykjavik, Islanda</h3>
+              <p class="card-text text-secondary">La capitale più a nord d'Europa, caratterizzata da architettura moderna e una spumeggiante scena notturna. Perfetta per le attività invernali, il whale watching o come punto di partenza per esplorare l'affascinante Islanda. <br>
+              E' il momento migliore per vedere l'aurora boreale.
+              </p>
+              <div class="d-flex">
+                <ion-icon name="calendar-outline"></ion-icon>
+                <p class="text-black mb-0 fs-5">Dal 18/01/2025 al 25/01/2025</p>  
+              </div>
+              <div class="d-flex">
+                <ion-icon name="airplane-outline"></ion-icon>
+                <p class="text-black mb-0 fs-5">Voli da Milano Malpensa (Mxp)</p>  
+              </div>
+              <div class="d-flex">
+                <p>299€</p><span>/persona</span>
+                <a href="#" class="btn btn-primary">Prenota ora</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class=" container-xxl row gx-2 gy-2 mx-auto mb-4">
+        <div class="col-12">
+          <div class="card-header fw-bolder fs-2 ps-2">Last Minute</div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="card rounded-4" id="first-card">
+            <div class="card-body">
+              <h3 class="card-title fw-bolder mb-2">Machu Picchu, Perù</h3>
+                <p class="card-text fs-6">A partire da 799€</p>
+                <a href="#" class="btn btn-primary">Affrettati!</a>
+            </div>
+            </div>
+          </div>
+        
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card rounded-4" id="second-card">
+            <div class="card-body">
+                <h3 class="card-title fw-bolder mb-2">Hanoi, Vietnam</h3>
+                <p class="card-text fs-6">A partire da 749€</p>
+                <a href="#" class="btn btn-primary">Affrettati!</a>
+            </div>
+        </div>
+      </div>
+  
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card rounded-4" id="third-card">
+          <div class="card-body">
+              <h3 class="card-title fw-bolder mb-2">Lofoten, Norvegia</h3>
+              <p class="card-text fs-6 text-white">A partire da 379€</p>
+              <a href="#" class="btn btn-primary">Affrettati!</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card rounded-4" id="fourth-card">
+          <div class="card-body">
+              <h3 class="card-title fw-bolder mb-2">Andalucia, Spagna</h3>
+              <p class="card-text fs-6">A partire da 249€</p>
+              <a href="#" class="btn btn-primary">Affrettati!</a>
+          </div>
+          </div>
+          </div>
+      </section>  
+
+    <section class="container-xxl row mx-auto">
+      <div class="col-12">
+        <div class="card-header fw-bolder fs-2 ps-2 mb-4">Dicono di noi</div>
+      </div>
+      <div class="row"> 
+      <figure class="text-start col-12 col-md-6">
+        <blockquote class="blockquote">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa temporibus pariatur nemo sint, aliquid facilis repellat! Quibusdam, veritatis tempore autem fugit quisquam quaerat beatae. Accusantium quia vitae necessitatibus facilis.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          <cite title="Source Title">Ross Geller</cite>
+          <img src="assets/img/6753d3169ab19de05aa73748ebc0e7ab.jpg" alt="Ross Geller">
+        </figcaption>
+      </figure>
+      <figure class="text-start col-12 col-md-6">
+        <blockquote class="blockquote">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa temporibus pariatur nemo sint, aliquid facilis repellat! Quibusdam, veritatis tempore autem fugit quisquam quaerat beatae. Accusantium quia vitae necessitatibus facilis.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          <cite title="Source Title">Rachel Greene</cite>
+          <img src="assets/img/rachel-green-lipstick-friends-1503504644.jpg" alt="Rachel Greene">
+        </figcaption>
+      </figure>
+      <figure class="text-start col-12 col-md-6">
+        <blockquote class="blockquote">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa temporibus pariatur nemo sint, aliquid facilis repellat! Quibusdam, veritatis tempore autem fugit quisquam quaerat beatae. Accusantium quia vitae necessitatibus facilis.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          <cite title="Source Title">Chandler Bing</cite>
+          <img src="assets/img/chandler.jpg" alt="Chandler Bing">
+        </figcaption>
+      </figure>
+      <figure class="text-start col-12 col-md-6">
+        <blockquote class="blockquote">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa temporibus pariatur nemo sint, aliquid facilis repellat! Quibusdam, veritatis tempore autem fugit quisquam quaerat beatae. Accusantium quia vitae necessitatibus facilis.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          <cite title="Source Title">Joey Tribbiani</cite>
+          <img src="assets/img/joey.jpg" alt="Joey Tribbiani">
+        </figcaption>
+      </figure>
+    </div>
+    </section>
+    
+  </main>
+  
+  <footer>
+    <div class="container-xxl py-4">
+      <div class="row">
+        <div class="col-12 col-md-8">
+          <h3 class="mt-3">Hai bisogno di assistenza? Chiamaci!</h3>
+          <h3>Contatti</h3>
+          <ul>
+            <li><ion-icon name="call"></ion-icon> +39 3522587740</li>
+            <li><ion-icon name="mail-open"></ion-icon> angenziadiviaggio@siviaggiare.it</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4 text-md-end text-center">
+          <a href="#" class="btn btn-light mb-2"><ion-icon name="calendar-number-outline"></ion-icon> Prenota una consulenza gratuita</a>
+          <a href="#" class="btn btn-light mb-2"><ion-icon name="navigate-outline"></ion-icon> Vieni a trovarci in agenzia</a>
+          <ul class="list-unstyled">
+            <li>Via Roma 1</li>
+            <li>02541 Milano</li>
+            <li>Italia</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="assets/bootstrap.bundle.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

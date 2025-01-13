@@ -1,0 +1,256 @@
+/* Generale */
+#navbar-logo {
+    max-height: 3.1rem;
+    height: auto;
+    width: auto;
+}
+
+.navbar {
+    min-height: 3.75rem;
+    background-color: #d1e0e6 !important;
+}
+
+.navbar > * {
+    background-color: #d1e0e6;
+}
+
+.navbar > .container-xxl > .collapse > ul > li > a {
+    margin-right: 0.5rem !important;
+    margin-bottom: 0.3rem !important;
+}
+
+
+.jumbotron, .card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.44);
+}
+
+.jumbotron {
+    background-image: url(../img/jumbotron.jpg);
+}
+
+h1 {
+    color: white;
+}
+
+p.d-md-block {
+    color: white;
+}
+
+.card {
+    overflow: hidden;
+    min-height: 18.75rem;
+    color: white;
+    --bs-card-border-color: none;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.card-body > a {
+    max-width: 10rem;
+}
+
+.card#first-card {
+    background-image: url(../img/peru.jpg);
+}
+
+#second-card {
+    background-image: url(../img/vietnam.png);
+}
+
+#third-card {
+    background-image: url(../img/Lofoten-inverno-min-1024x644.jpg);
+}
+
+#fourth-card {
+    background-image: url(../img/andalucia.jpg);
+}
+
+
+#summer-1 {
+    background-image: url(../img/playas-de-italia-1.jpg);
+}
+
+#summer-2 {
+    background-image: url(../img/Minorca.jpg);
+}
+
+#summer-3 {
+    background-image: url(../img/isole-canarie-227.jpg);
+}
+
+#summer-4 {
+    background-image: url(../img/corsica-e-bonifacio_900x760.jpg);
+}
+
+#summer-5 {
+    background-image: url(../img/tunisia.jpg);
+}
+
+#summer-6 {
+    background-image: url(../img/grecia.jpg);
+}
+
+#summer > .col-6 > div.card {
+    min-height: 7.9rem;
+}
+
+#summer .card-body > h3 {
+    text-decoration: none;
+}
+
+#summer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#day-offer {
+    margin-top: 0.8rem;
+    margin-bottom: 10rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+}
+
+#day-offer .card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+#day-offer > .col-12 > .card-header {
+    background-color: white;
+    color: black;
+}
+
+#day-offer > .row > .col-md-4 > .card-body {
+    background-color: rgba(128, 168, 187, 0.361);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 30rem;
+}
+
+#day-offer > .row > .col-md-4 > .card-body > div.d-flex:not(:last-child) {
+    align-items: center;
+    margin-top: 1.5rem;
+    color: black;
+}
+
+#day-offer > .row > .col-md-4 > .card-body > div.d-flex:not(:last-child) > p {
+    margin-top: 0;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+
+#day-offer > .row > .col-md-4 > .card-body > div.d-flex:last-of-type {
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#day-offer > .row > .col-md-4 > .card-body > div.d-flex:last-of-type > p {
+    margin: 0;
+    font-size: xx-large;
+    color: black;
+    margin-right: 0.3rem;
+}
+
+#day-offer > .row > .col-md-4 > .card-body > div.d-flex:last-of-type > span {
+    color: black;
+    margin-top: 0.8rem;
+    margin-right: 2rem;
+}
+
+figcaption > img {
+    border-radius: 50%;
+    max-width: 3rem;
+    max-height: auto;
+}
+
+figure {
+    padding-right: 2rem;
+}
+
+footer {
+    background-color: #0247ae;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    color: white;
+}
+
+footer .container-xxl {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+footer .container-xxl > div {
+    flex: 1;
+    min-width: 250px;
+   
+}
+
+footer h3 {
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: start;
+}
+
+footer ul li ion-icon {
+    color: white;
+}
+
+footer a.btn {
+    max-width: 19rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #0247ae;
+    background-color: white;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a.btn:hover {
+    background-color: #d1e0e6;
+    color: #0247ae;
+}
+
+footer .col-md-4 ul {
+    margin-top: 2rem;
+}
+
+
+
