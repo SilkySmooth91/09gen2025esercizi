@@ -252,5 +252,12 @@ footer .col-md-4 ul {
     margin-top: 2rem;
 }
 
+@media (min-width: 770px) {
+
+    footer > .container-xxl > .row > .col-12:first-child {
+        border-right: 1px solid white;
+    }
+}
+
 
 
